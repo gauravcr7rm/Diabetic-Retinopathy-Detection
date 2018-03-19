@@ -1,0 +1,1 @@
+find . -name "*.jpeg" | xargs mogrify -resize 768x512
