@@ -2,7 +2,7 @@
 # unpacked into train/ and test/.  To run, it works best to use GNU
 # parallel as
 #
-#   ls train/*.jpeg test/*.jpeg | parallel ./prep_image.sh
+#   ls train/*.jpeg test/*.jpeg | parallel ./Preprocessing/run_stretch.sh
 out_dir=processed/run-stretch
 mkdir -p $out_dir/train
 mkdir -p $out_dir/test
